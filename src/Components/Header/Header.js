@@ -13,8 +13,7 @@ function Header() {
   const {user} =useContext(AuthContext)
   const {firebase} =useContext(FirebaseContext)
 
-  console.log("kkkk");
-  console.log(user);
+
   return (
     <div className="headerParentDiv">
       <div className="headerChildDiv">
